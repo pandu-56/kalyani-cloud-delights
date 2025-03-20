@@ -145,7 +145,7 @@
                 return;
             }
             let orderDetails = cart.map(item => `${item.item} - ₹${item.price}`).join('%0A');
-            let whatsappLink = `https://wa.me/6309815376?text=Order%20Details:%0A${orderDetails}%0ATotal:%20₹${document.getElementById('cart-total').textContent}`;
+            let whatsappLink = `https://wa.me/+916309815376?text=Order%20Details:%0A${orderDetails}%0ATotal:%20₹${document.getElementById('cart-total').textContent}`;
             window.open(whatsappLink, '_blank');
         }
     </script>
